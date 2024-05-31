@@ -1,0 +1,3 @@
+[submodule "libstellar"]
+	path = libstellar
+	url = https://github.com/lightsail-network/libstellar.git
