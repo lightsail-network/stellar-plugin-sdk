@@ -23,6 +23,7 @@ include $(BOLOS_SDK)/Makefile.defines
 
 APPVERSION ?= "$(APPVERSION_M).$(APPVERSION_N).$(APPVERSION_P)"
 
+SDK_SOURCE_PATH += lib_standard_app/buffer.c lib_standard_app/read.c lib_standard_app/varint.c lib_standard_app/bip32.c
 # Application source files
 APP_SOURCE_PATH += src stellar_plugin_sdk stellar_plugin_sdk/libstellar
 INCLUDES_PATH += ${BOLOS_SDK}/lib_standard_app stellar_plugin_sdk/libstellar/include
